@@ -1,0 +1,58 @@
+/* resets */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul,
+ol,
+ul li,
+ol li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* components */
+
+.list-horizontal {
+    display: flex;
+}
+
+.site-content {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.disabled {
+    cursor: not-allowed;
+}
+
+/* site styles */
+
+
+.site-header {
+    background: #000;
+    color: #fff;
+    height: 60px;
+}
+
+.header-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.site-header a {
+    color: #fff;
+    padding: 20px 15px;
+    display: inline-block;
+    font-size: 1.3em;
+}
+
+.site-header a:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
